@@ -55,18 +55,11 @@
           "lookupValueField": null,
           "relationName": "Должность",
           "belongsTo": [],
-          "hidden": true,
-          "attrs": [
-            {
-              "name": "наименование",
-              "caption": "Наименование",
-              "hidden": true,
-              "index": 0
-            }
-          ],
-          "index": -1,
+          "hidden": false,
+          "attrs": [],
+          "index": 0,
           "type": "default",
-          "caption": "Наименование",
+          "caption": "Должность",
           "name": "должность",
           "relatedTo": "i-i-s-proba-kursacha-должность",
           "inverse": null
@@ -76,30 +69,11 @@
           "lookupValueField": null,
           "relationName": "Cотрудник",
           "belongsTo": [],
-          "hidden": true,
-          "attrs": [
-            {
-              "name": "фамилия",
-              "caption": "Фамилия",
-              "hidden": true,
-              "index": 1
-            },
-            {
-              "name": "имя",
-              "caption": "Имя",
-              "hidden": false,
-              "index": 2
-            },
-            {
-              "name": "отчество",
-              "caption": "Отчество",
-              "hidden": false,
-              "index": 3
-            }
-          ],
-          "index": -1,
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
           "type": "default",
-          "caption": "Фамилия",
+          "caption": "Сотрудник",
           "name": "cотрудник",
           "relatedTo": "i-i-s-proba-kursacha-cотрудник",
           "inverse": null
@@ -109,18 +83,11 @@
           "lookupValueField": null,
           "relationName": "Карты",
           "belongsTo": [],
-          "hidden": true,
-          "attrs": [
-            {
-              "name": "кодКарты",
-              "caption": "Код карты",
-              "hidden": true,
-              "index": 4
-            }
-          ],
-          "index": -1,
+          "hidden": false,
+          "attrs": [],
+          "index": 2,
           "type": "default",
-          "caption": "Код карты",
+          "caption": "Карта",
           "name": "карты",
           "relatedTo": "i-i-s-proba-kursacha-карты",
           "inverse": null
@@ -136,19 +103,19 @@
               "name": "фамилия",
               "caption": "Фамилия",
               "hidden": true,
-              "index": 5
+              "index": 3
             },
             {
               "name": "имя",
               "caption": "Имя",
               "hidden": false,
-              "index": 6
+              "index": 4
             },
             {
               "name": "отчество",
               "caption": "Отчество",
               "hidden": false,
-              "index": 7
+              "index": 5
             }
           ],
           "index": -1,

@@ -28,7 +28,14 @@
     {
       "name": "ФормаРегисВхE",
       "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
       "belongsTo": [],
       "hasMany": [
         {
@@ -43,14 +50,7 @@
     {
       "name": "ФормаРегисВхL",
       "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
-      "attrs": [
-        {
-          "name": "дата",
-          "caption": "Дата",
-          "hidden": false,
-          "index": 0
-        }
-      ],
+      "attrs": [],
       "belongsTo": [],
       "hasMany": []
     }

@@ -52,21 +52,19 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТчРегистВходаE', 'i-i-s-proba-kursacha-тч-регист-входа', {
-    должность: belongsTo('i-i-s-proba-kursacha-должность', 'Наименование', {
-      наименование: attr('Наименование', { index: 0, hidden: true })
-    }, { index: -1, hidden: true }),
-    cотрудник: belongsTo('i-i-s-proba-kursacha-cотрудник', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 1, hidden: true }),
-      имя: attr('Имя', { index: 2 }),
-      отчество: attr('Отчество', { index: 3 })
-    }, { index: -1, hidden: true }),
-    карты: belongsTo('i-i-s-proba-kursacha-карты', 'Код карты', {
-      кодКарты: attr('Код карты', { index: 4, hidden: true })
-    }, { index: -1, hidden: true }),
     гость: belongsTo('i-i-s-proba-kursacha-гость', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 5, hidden: true }),
-      имя: attr('Имя', { index: 6 }),
-      отчество: attr('Отчество', { index: 7 })
-    }, { index: -1, hidden: true })
+      фамилия: attr('Фамилия', { index: 3, hidden: true }),
+      имя: attr('Имя', { index: 4 }),
+      отчество: attr('Отчество', { index: 5 })
+    }, { index: -1, hidden: true }),
+    должность: belongsTo('i-i-s-proba-kursacha-должность', 'Должность', {
+
+    }, { index: 0 }),
+    cотрудник: belongsTo('i-i-s-proba-kursacha-cотрудник', 'Сотрудник', {
+
+    }, { index: 1 }),
+    карты: belongsTo('i-i-s-proba-kursacha-карты', 'Карта', {
+
+    }, { index: 2 })
   });
 };

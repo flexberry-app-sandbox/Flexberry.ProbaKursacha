@@ -29,11 +29,11 @@ namespace IIS.ProbaKursacha
     [AutoAltered()]
     [Caption("Форма регис вх")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("ФормаРегисВхE", new string[0])]
+    [View("ФормаРегисВхE", new string[] {
+            "Дата as \'Дата\'"})]
     [AssociatedDetailViewAttribute("ФормаРегисВхE", "ТчРегистВхода", "ТчРегистВходаE", true, "", "Тч регист входа", true, new string[] {
             ""})]
-    [View("ФормаРегисВхL", new string[] {
-            "Дата as \'Дата\'"})]
+    [View("ФормаРегисВхL", new string[0])]
     public class ФормаРегисВх : ICSSoft.STORMNET.DataObject
     {
         

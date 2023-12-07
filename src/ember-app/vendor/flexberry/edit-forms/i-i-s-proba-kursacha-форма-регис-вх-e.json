@@ -1,5 +1,30 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": "должность",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ТчРегистВхода.Должность",
+      "projection": "ДолжностьL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    },
+    {
+      "master": "cотрудник",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ТчРегистВхода.Cотрудник",
+      "projection": "CотрудникL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    },
+    {
+      "master": "карты",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "ТчРегистВхода.Карты",
+      "projection": "КартыL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    }
+  ],
   "external": false,
   "caption": "Форма регис вх",
   "name": "IISProbaKursachaФормаРегисВхE",

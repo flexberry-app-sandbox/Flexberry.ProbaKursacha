@@ -22,30 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-proba-kursacha-должность-l',
             caption: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-должность-l.title'),
-            icon: 'phone',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-proba-kursacha-карты-l',
             caption: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-карты-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-карты-l.title'),
-            icon: 'list',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-proba-kursacha-cотрудник-l',
             caption: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-cотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-cотрудник-l.title'),
-            icon: 'briefcase',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proba-kursacha-гость-l',
             caption: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-гость-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-гость-l.title'),
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-proba-kursacha-форма-регис-вх-l',
             caption: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-форма-регис-вх-l.caption'),
             title: i18n.t('forms.application.sitemap.proba-kursacha.i-i-s-proba-kursacha-форма-регис-вх-l.title'),
-            icon: 'archive',
+            icon: 'folder open',
             children: null
           }]
         }

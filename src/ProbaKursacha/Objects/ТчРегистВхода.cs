@@ -30,22 +30,18 @@ namespace IIS.ProbaKursacha
     [Caption("Тч регист входа")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТчРегистВходаE", new string[] {
-            "Cотрудник as \'Cотрудник\'",
-            "Cотрудник.Фамилия as \'Фамилия\'",
-            "Должность as \'Должность\'",
-            "Карты as \'Карты\'",
-            "Карты.КодКарты as \'Код карты\'",
             "Должность.Наименование as \'Наименование\'",
-            "Гость as \'Гость\'",
-            "Гость.Фамилия as \'Фамилия\'"}, Hidden=new string[] {
+            "Cотрудник.Фамилия as \'Фамилия\'",
+            "Cотрудник.Имя as \'Имя\'",
+            "Cотрудник.Отчество as \'Отчество\'",
+            "Карты.КодКарты as \'Код карты\'",
+            "Гость.Фамилия as \'Фамилия\'",
+            "Гость.Имя as \'Имя\'",
+            "Гость.Отчество as \'Отчество\'"}, Hidden=new string[] {
+            "Должность.Наименование",
             "Cотрудник.Фамилия",
             "Карты.КодКарты",
-            "Должность.Наименование",
             "Гость.Фамилия"})]
-    [MasterViewDefineAttribute("ТчРегистВходаE", "Cотрудник", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
-    [MasterViewDefineAttribute("ТчРегистВходаE", "Должность", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
-    [MasterViewDefineAttribute("ТчРегистВходаE", "Карты", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "КодКарты")]
-    [MasterViewDefineAttribute("ТчРегистВходаE", "Гость", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     public class ТчРегистВхода : ICSSoft.STORMNET.DataObject
     {
         

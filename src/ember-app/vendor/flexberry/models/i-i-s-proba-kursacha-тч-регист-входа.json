@@ -51,53 +51,65 @@
       "attrs": [],
       "belongsTo": [
         {
-          "lookupValue": "Фамилия",
-          "lookupValueField": "фамилия",
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Должность",
+          "belongsTo": [],
+          "hidden": true,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "должность",
+          "relatedTo": "i-i-s-proba-kursacha-должность",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "Cотрудник",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "фамилия",
               "caption": "Фамилия",
               "hidden": true,
               "index": 1
+            },
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 2
+            },
+            {
+              "name": "отчество",
+              "caption": "Отчество",
+              "hidden": false,
+              "index": 3
             }
           ],
-          "index": 0,
-          "type": "standard",
-          "caption": "Cотрудник",
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
           "name": "cотрудник",
           "relatedTo": "i-i-s-proba-kursacha-cотрудник",
           "inverse": null
         },
         {
-          "lookupValue": "Наименование",
-          "lookupValueField": "наименование",
-          "relationName": "Должность",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "наименование",
-              "caption": "Наименование",
-              "hidden": true,
-              "index": 5
-            }
-          ],
-          "index": 2,
-          "type": "standard",
-          "caption": "Должность",
-          "name": "должность",
-          "relatedTo": "i-i-s-proba-kursacha-должность",
-          "inverse": null
-        },
-        {
-          "lookupValue": "КодКарты",
-          "lookupValueField": "кодКарты",
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "Карты",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "кодКарты",
@@ -106,30 +118,42 @@
               "index": 4
             }
           ],
-          "index": 3,
-          "type": "standard",
-          "caption": "Карты",
+          "index": -1,
+          "type": "default",
+          "caption": "Код карты",
           "name": "карты",
           "relatedTo": "i-i-s-proba-kursacha-карты",
           "inverse": null
         },
         {
-          "lookupValue": "Фамилия",
-          "lookupValueField": "фамилия",
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "Гость",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "фамилия",
               "caption": "Фамилия",
               "hidden": true,
+              "index": 5
+            },
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 6
+            },
+            {
+              "name": "отчество",
+              "caption": "Отчество",
+              "hidden": false,
               "index": 7
             }
           ],
-          "index": 6,
-          "type": "standard",
-          "caption": "Гость",
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
           "name": "гость",
           "relatedTo": "i-i-s-proba-kursacha-гость",
           "inverse": null

@@ -96,6 +96,8 @@ CREATE TABLE "ФормаРегисВх"
 
 	"primaryKey" RAW(16) NOT NULL,
 
+	"Дата" DATE NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 

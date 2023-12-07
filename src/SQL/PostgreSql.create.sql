@@ -52,6 +52,7 @@ CREATE TABLE Гость (
 
 CREATE TABLE ФормаРегисВх (
  primaryKey UUID NOT NULL,
+ Дата TIMESTAMP(3) NULL,
  PRIMARY KEY (primaryKey));
 
 

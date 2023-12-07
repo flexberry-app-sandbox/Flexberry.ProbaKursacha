@@ -5,7 +5,17 @@
   "nameSpace": "IIS.ProbaKursacha",
   "parentModelName": null,
   "parentClassName": null,
-  "attrs": [],
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
   "belongsTo": [],
   "hasMany": [
     {
@@ -33,7 +43,14 @@
     {
       "name": "ФормаРегисВхL",
       "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
       "belongsTo": [],
       "hasMany": []
     }

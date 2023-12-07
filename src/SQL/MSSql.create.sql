@@ -85,6 +85,8 @@ CREATE TABLE [ФормаРегисВх] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Дата] DATETIME  NULL,
+
 	 PRIMARY KEY ([primaryKey]))
 
 

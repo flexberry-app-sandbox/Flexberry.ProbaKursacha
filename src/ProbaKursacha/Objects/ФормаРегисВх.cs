@@ -32,9 +32,12 @@ namespace IIS.ProbaKursacha
     [View("ФормаРегисВхE", new string[0])]
     [AssociatedDetailViewAttribute("ФормаРегисВхE", "ТчРегистВхода", "ТчРегистВходаE", true, "", "Тч регист входа", true, new string[] {
             ""})]
-    [View("ФормаРегисВхL", new string[0])]
+    [View("ФормаРегисВхL", new string[] {
+            "Дата as \'Дата\'"})]
     public class ФормаРегисВх : ICSSoft.STORMNET.DataObject
     {
+        
+        private System.DateTime fДата;
         
         private IIS.ProbaKursacha.DetailArrayOfТчРегистВхода fТчРегистВхода;
         
@@ -42,6 +45,37 @@ namespace IIS.ProbaKursacha
 
         // *** End programmer edit section *** (ФормаРегисВх CustomMembers)
 
+        
+        /// <summary>
+        /// Дата.
+        /// </summary>
+        // *** Start programmer edit section *** (ФормаРегисВх.Дата CustomAttributes)
+
+        // *** End programmer edit section *** (ФормаРегисВх.Дата CustomAttributes)
+        public virtual System.DateTime Дата
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ФормаРегисВх.Дата Get start)
+
+                // *** End programmer edit section *** (ФормаРегисВх.Дата Get start)
+                System.DateTime result = this.fДата;
+                // *** Start programmer edit section *** (ФормаРегисВх.Дата Get end)
+
+                // *** End programmer edit section *** (ФормаРегисВх.Дата Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ФормаРегисВх.Дата Set start)
+
+                // *** End programmer edit section *** (ФормаРегисВх.Дата Set start)
+                this.fДата = value;
+                // *** Start programmer edit section *** (ФормаРегисВх.Дата Set end)
+
+                // *** End programmer edit section *** (ФормаРегисВх.Дата Set end)
+            }
+        }
         
         /// <summary>
         /// Форма регис вх.

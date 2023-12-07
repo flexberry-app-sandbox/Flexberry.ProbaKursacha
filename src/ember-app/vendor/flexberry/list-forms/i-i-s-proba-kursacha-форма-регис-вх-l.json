@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-kursacha-форма-регис-вх-e",
+  "editForm": "i-i-s-proba-kursacha-форма-регис-вх-e",
+  "external": false,
+  "caption": "Форма регис вх",
+  "name": "IISProbaKursachaФормаРегисВхL",
+  "className": "ФормаРегисВхL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
+      "modelProjection": "ФормаРегисВхL"
+    }
+  ]
+}

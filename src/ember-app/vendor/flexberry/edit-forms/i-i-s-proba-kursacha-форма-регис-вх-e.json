@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "cотрудник",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "ТчРегистВхода.Cотрудник",
+      "projection": "CотрудникL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    },
+    {
+      "master": "должность",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ТчРегистВхода.Должность",
+      "projection": "ДолжностьL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    },
+    {
+      "master": "карты",
+      "displayAttributeName": "кодКарты",
+      "required": true,
+      "relationName": "ТчРегистВхода.Карты",
+      "projection": "КартыL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    },
+    {
+      "master": "гость",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "ТчРегистВхода.Гость",
+      "projection": "ГостьL",
+      "detailModelName": "i-i-s-proba-kursacha-тч-регист-входа"
+    }
+  ],
+  "external": false,
+  "caption": "Форма регис вх",
+  "name": "IISProbaKursachaФормаРегисВхE",
+  "className": "ФормаРегисВхE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
+      "modelProjection": "ФормаРегисВхE"
+    }
+  ]
+}

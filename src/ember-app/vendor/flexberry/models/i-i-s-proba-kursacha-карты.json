@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISProbaKursachaКарты",
+  "modelName": "i-i-s-proba-kursacha-карты",
+  "className": "Карты",
+  "nameSpace": "IIS.ProbaKursacha",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодКарты",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КартыE",
+      "modelName": "i-i-s-proba-kursacha-карты",
+      "attrs": [
+        {
+          "name": "кодКарты",
+          "caption": "Код карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КартыL",
+      "modelName": "i-i-s-proba-kursacha-карты",
+      "attrs": [
+        {
+          "name": "кодКарты",
+          "caption": "Код карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

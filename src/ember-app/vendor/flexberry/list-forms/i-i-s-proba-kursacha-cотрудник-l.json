@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-kursacha-cотрудник-e",
+  "editForm": "i-i-s-proba-kursacha-cотрудник-e",
+  "external": false,
+  "caption": "Cотрудник",
+  "name": "IISProbaKursachaCотрудникL",
+  "className": "CотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-kursacha-cотрудник",
+      "modelProjection": "CотрудникL"
+    }
+  ]
+}

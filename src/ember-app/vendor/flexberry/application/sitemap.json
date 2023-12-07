@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Proba kursacha",
+  "applicationTitle": "Proba kursacha",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proba-kursacha",
+      "caption": "ProbaKursacha",
+      "title": "ProbaKursacha",
+      "children": [
+        {
+          "link": "i-i-s-proba-kursacha-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba-kursacha-карты-l",
+          "menuName": null,
+          "caption": "Карты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba-kursacha-cотрудник-l",
+          "menuName": null,
+          "caption": "Cотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba-kursacha-гость-l",
+          "menuName": null,
+          "caption": "Гость",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba-kursacha-форма-регис-вх-l",
+          "menuName": null,
+          "caption": "Форма регис вх",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

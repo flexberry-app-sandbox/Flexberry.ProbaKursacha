@@ -1,0 +1,44 @@
+﻿{
+  "name": "IISProbaKursachaФормаРегисВх",
+  "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
+  "className": "ФормаРегисВх",
+  "nameSpace": "IIS.ProbaKursacha",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "тчРегистВхода",
+      "relatedTo": "i-i-s-proba-kursacha-тч-регист-входа",
+      "inverse": "формаРегисВх"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ФормаРегисВхE",
+      "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТчРегистВходаE",
+          "caption": "Тч регист входа",
+          "name": "тчРегистВхода",
+          "relatedTo": "i-i-s-proba-kursacha-тч-регист-входа",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ФормаРегисВхL",
+      "modelName": "i-i-s-proba-kursacha-форма-регис-вх",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

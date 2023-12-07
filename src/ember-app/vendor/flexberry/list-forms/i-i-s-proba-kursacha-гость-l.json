@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-kursacha-гость-e",
+  "editForm": "i-i-s-proba-kursacha-гость-e",
+  "external": false,
+  "caption": "Гость",
+  "name": "IISProbaKursachaГостьL",
+  "className": "ГостьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-kursacha-гость",
+      "modelProjection": "ГостьL"
+    }
+  ]
+}

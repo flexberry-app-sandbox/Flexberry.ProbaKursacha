@@ -1,0 +1,144 @@
+﻿{
+  "name": "IISProbaKursachaТчРегистВхода",
+  "modelName": "i-i-s-proba-kursacha-тч-регист-входа",
+  "className": "ТчРегистВхода",
+  "nameSpace": "IIS.ProbaKursacha",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "cотрудник",
+      "relatedTo": "i-i-s-proba-kursacha-cотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "гость",
+      "relatedTo": "i-i-s-proba-kursacha-гость",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "должность",
+      "relatedTo": "i-i-s-proba-kursacha-должность",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "карты",
+      "relatedTo": "i-i-s-proba-kursacha-карты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "формаРегисВх",
+      "relatedTo": "i-i-s-proba-kursacha-форма-регис-вх",
+      "inverse": "тчРегистВхода"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТчРегистВходаE",
+      "modelName": "i-i-s-proba-kursacha-тч-регист-входа",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Cотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Cотрудник",
+          "name": "cотрудник",
+          "relatedTo": "i-i-s-proba-kursacha-cотрудник",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Должность",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Должность",
+          "name": "должность",
+          "relatedTo": "i-i-s-proba-kursacha-должность",
+          "inverse": null
+        },
+        {
+          "lookupValue": "КодКарты",
+          "lookupValueField": "кодКарты",
+          "relationName": "Карты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "кодКарты",
+              "caption": "Код карты",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Карты",
+          "name": "карты",
+          "relatedTo": "i-i-s-proba-kursacha-карты",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Гость",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Гость",
+          "name": "гость",
+          "relatedTo": "i-i-s-proba-kursacha-гость",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-kursacha-должность-e",
+  "editForm": "i-i-s-proba-kursacha-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISProbaKursachaДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-kursacha-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

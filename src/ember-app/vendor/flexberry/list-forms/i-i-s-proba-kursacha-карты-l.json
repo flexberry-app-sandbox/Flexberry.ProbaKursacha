@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba-kursacha-карты-e",
+  "editForm": "i-i-s-proba-kursacha-карты-e",
+  "external": false,
+  "caption": "Карты",
+  "name": "IISProbaKursachaКартыL",
+  "className": "КартыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba-kursacha-карты",
+      "modelProjection": "КартыL"
+    }
+  ]
+}
